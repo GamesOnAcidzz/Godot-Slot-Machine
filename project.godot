@@ -9,12 +9,18 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Object",
+"class": "Reel",
+"language": "GDScript",
+"path": "res://Reel.gd"
+}, {
 "base": "Node2D",
 "class": "SlotTile",
 "language": "GDScript",
 "path": "res://scenes/SlotTile.gd"
 } ]
 _global_script_class_icons={
+"Reel": "",
 "SlotTile": ""
 }
 
